@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab05 - Nhiệm vụ 2.2</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f3f7fb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px 30px;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #123e6d, #1f7bb6, #1fa4a0);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 18px;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+    }
+
+    .header h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 4vw, 3rem);
+    }
+
+    .header p {
+      margin: 0 auto;
+      max-width: 700px;
+      font-size: 1.05rem;
+      color: #eaf6ff;
+    }
+
+    .section {
+      background: white;
+      margin-top: 25px;
+      padding: 28px 24px;
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      color: #123e6d;
+      font-size: clamp(1.4rem, 2vw, 2rem);
+    }
+
+    .section p {
+      color: #475569;
+      margin-bottom: 20px;
+    }
+
+    .pdf-frame {
+      display: block;
+      width: 100%;
+      height: 700px;
+      border: 1px solid #dbe4f0;
+      border-radius: 12px;
+      background: #fff;
+    }
+
+    .infographic {
+      display: block;
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid #dbe4f0;
+      background: #fff;
+    }
+
+    figcaption {
+      text-align: center;
+      margin-top: 10px;
+      color: #64748b;
+      font-size: 0.95rem;
+    }
+
+    .video-wrapper {
+      position: relative;
+      padding-top: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 12px;
+      background: #0b1728;
+    }
+
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .notice {
+      margin-top: 18px;
+      padding: 14px 16px;
+      background: #fff8e6;
+      border-left: 5px solid #f4b740;
+      border-radius: 8px;
+      color: #5b4b1a;
+      font-size: 0.95rem;
+    }
+
+    .copyright {
+      margin-top: 25px;
+      text-align: center;
+      color: #64748b;
+      font-size: 0.9rem;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Infographic và Video - Nhiệm vụ 2.2</h1>
+      <p>
+        Bài tập minh họa nội dung trực quan bằng infographic và hỗ trợ hiểu rõ hơn bằng video YouTube.
+      </p>
+    </header>
+
+    <section class="section">
+      <h2>PDF</h2>
+      <p>
+        Tài liệu PDF của bài tập Lab05_Ex1.2 được nhúng trực tiếp trong trang để xem nhanh mà không cần tải xuống.
+      </p>
+      <iframe class="pdf-frame" src="Lab05_Ex1.2.pdf" title="Tài liệu PDF Lab05_Ex1.2"></iframe>
+    </section>
+
+    <section class="section">
+      <h2>Infographic</h2>
+      <p>
+        Hình ảnh infographic dưới đây tóm tắt nội dung chính của bài tập một cách trực quan và dễ theo dõi.
+      </p>
+      <figure>
+        <img class="infographic" src="Lab05_Ex2.1.png" alt="Infographic của bài tập Lab05_Ex2.1">
+        <figcaption>Hình ảnh minh họa: Lab05_Ex2.1.png</figcaption>
+      </figure>
+    </section>
+
+    <section class="section">
+      <h2>Video YouTube</h2>
+      <p>
+        Video dưới đây là nội dung tham khảo cho Nhiệm vụ 2.2, giúp người xem nắm rõ hơn chủ đề bài tập.
+      </p>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/IuBoH-0lJ5c?si=IsyZ2vo9L6A420Kb"
+          title="Video Nhiệm vụ 2.2"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <div class="notice">
+        <strong>Ghi chú:</strong> Nội dung video được dùng cho mục đích học tập và thực hành trong môn học.
+      </div>
+    </section>
+
+    <p class="copyright">
+      Bản quyền hình ảnh và video thuộc chủ sở hữu tương ứng. Sử dụng cho mục đích học tập.
+    </p>
+  </div>
+</body>
+</html>
